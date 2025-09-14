@@ -3,6 +3,16 @@
 
 A Python package for optimizing HTML, JS, CSS, and JSON files in a directory.
 
+To achieve this, the project copies the selected folder to a new "compressed" folder inside the selected directory and applies optimizations to supported file types.
+
+It automatically detects `.gitignore` files and skips ignored files during copying.
+
+Currently supported file types:
+- `.html`
+- `.js`
+- `.css`
+- `.json`
+
 ## Usage
 
 Run `main.py` to launch the folder selection and optimization process.
