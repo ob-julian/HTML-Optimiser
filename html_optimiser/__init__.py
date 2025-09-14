@@ -1,0 +1,1 @@
+# Init for html_optimiser package
